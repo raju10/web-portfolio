@@ -118,3 +118,86 @@ section {
   background: #555;
   color: white;
 }
+#myProject {
+  background: #9e9e9e21;
+  overflow: hidden;
+}
+.myOrojectTitle {
+  padding-bottom: 60px;
+  text-align: center;
+}
+.myOrojectTitle h1 {
+  font-size: 43px;
+  font-weight: 600;
+  color: #585252;
+}
+.myOrojectTitle span {
+  color: #ec9a02;
+}
+.sBoxMyProjectContain {
+  width: 408px;
+  background: white;
+  height: 448px;
+  float: left;
+  margin-right: 38px;
+  border-radius: 25px;
+  box-shadow: 10px 10px 45px #808080de;
+}
+.sBoxMyProjectContain:last-child {
+  margin-right: 0px;
+  float: right;
+}
+.sBoxMyProjectContainImg {
+  width: 350px;
+  margin: auto;
+}
+
+.sBoxMyProjectContainImg img {
+  max-width: 100%;
+  border: 3px solid #0000000f;
+  border-radius: 22px;
+  margin-top: 26px;
+}
+.sBoxMyProjectContain h3 {
+  padding-left: 22px;
+  padding-right: 20px;
+  padding-top: 20px;
+  font-size: 21px;
+  font-weight: 580;
+  color: #585252;
+}
+.sBoxMyProjectContain p {
+  font-size: 14px;
+  color: gray;
+  padding-left: 22px;
+  padding-right: 22px;
+  padding-top: 10px;
+  padding-bottom: 23px;
+}
+
+.sBoxMyProjectContain a {
+  margin-left: 22px;
+
+  text-decoration: none;
+  background: linear-gradient(45deg, #f7ab1fab, #e24c31e0);
+  padding: 5px 15px;
+  color: white;
+  font-weight: 400;
+  border-radius: 5px;
+}
+.sBoxMyProjectContain a:hover {
+  background: #555;
+  color: white;
+}
+.boxContain {
+  border: 1px solid black;
+  width: 700px;
+  height: 200px;
+  margin: auto;
+}
+
+.boxContain span {
+  padding-left: 50px;
+  padding-top: 30px;
+  margin-top: 49px;
+}
