@@ -230,3 +230,34 @@ section {
   background: #555;
   color: white;
 }
+.footerContain {
+  width: 800px;
+  margin: auto;
+  text-align: center;
+}
+.footerContain h3 {
+  font-size: 28px;
+  padding-bottom: 15px;
+  font-weight: 500;
+  color: #585252;
+}
+.footerContain h1 {
+  font-size: 32px;
+  font-weight: 550;
+  padding-bottom: 25px;
+  color: #555;
+}
+.footerContain ul {
+}
+.footerContain li {
+  list-style: none;
+  float: left;
+  padding: 20px;
+}
+.footerContain img {
+  width: 50px;
+  max-width: 100%;
+}
+#footerUlFirstImg {
+  margin-left: 270px;
+}
